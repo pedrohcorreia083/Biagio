@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biagio Interiores - Tradição Italiana em Cada Detalhe</title>
-    <meta name="description" content="Há mais de 60 anos criando móveis sob medida com tradição italiana. Projetos de interiores residenciais, comerciais e corporativos.">
+    <meta name="description"
+        content="Há mais de 60 anos criando móveis sob medida com tradição italiana. Projetos de interiores residenciais, comerciais e corporativos.">
     <meta name="keywords" content="móveis sob medida, marcenaria, interiores, design, São Paulo, tradição italiana">
-    
+
     <!-- Bootstrap CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
@@ -14,8 +16,11 @@
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <!-- Header -->
     <header class="header-main">
@@ -24,21 +29,30 @@
                 <a class="navbar-brand" href="#home">
                     <img src="img/logo-biagio.png" alt="Biagio Interiores" class="logo">
                 </a>
-                
+
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                
+
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item">
                             <a class="nav-link" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#sobre">Sobre Nós</a>
+                            <a class="nav-link" href="quem-somos.html">Quem Somos</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#servicos">Serviços</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownServicos" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Serviços
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownServicos">
+                                <li><a class="dropdown-item" href="residencial.html">Residencial</a></li>
+                                <li><a class="dropdown-item" href="comercial.html">Comercial</a></li>
+                                <li><a class="dropdown-item" href="corporativo.html">Corporativo</a></li>
+                                <li><a class="dropdown-item" href="moveis-planejados.html">Móveis Planejados</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#portfolio">Portfólio</a>
@@ -47,7 +61,7 @@
                             <a class="nav-link" href="#contato">Contato</a>
                         </li>
                     </ul>
-                    
+
                     <div class="navbar-contact">
                         <a href="tel:+5511999999999" class="btn btn-outline-primary me-2">
                             <i class="fas fa-phone"></i> (11) 99999-9999
@@ -68,30 +82,27 @@
             <div class="row align-items-center min-vh-100">
                 <div class="col-lg-8 mx-auto text-center">
                     <h1 class="hero-title" data-aos="fade-up">
-                        ATELIER BIAGIO
-                    </h1>
-                    <h2 class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
-                        Tradição Italiana em Cada Detalhe
-                    </h2>
-                    <p class="hero-description" data-aos="fade-up" data-aos-delay="400">
-                        Há mais de 60 anos, a família Barletta dedica-se à arte da marcenaria italiana, 
-                        criando móveis sob medida que combinam tradição, qualidade e sofisticação para 
-                        transformar seus ambientes em espaços únicos e exclusivos.
-                    </p>
-                    
-                    <div class="hero-buttons" data-aos="fade-up" data-aos-delay="600">
-                        <a href="#sobre" class="btn btn-primary btn-lg me-3">
-                            <i class="fas fa-history"></i> Conheça Nossa História
-                        </a>
-                        <a href="#contato" class="btn btn-outline-light btn-lg">
-                            <i class="fas fa-calculator"></i> Solicite Orçamento
-                        </a>
-                    </div>
-                
+
+                        <h2 class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
+                            Tradição Italiana em Cada Detalhe
+                        </h2>
+                        <p class="hero-description" data-aos="fade-up" data-aos-delay="400">
+                            Há mais de 60 anos, a família Barletta dedica-se à arte da marcenaria italiana,
+                            criando móveis sob medida que combinam tradição, qualidade e sofisticação para
+                            transformar seus ambientes em espaços únicos e exclusivos.
+                        </p>
+
+                        <div class="hero-buttons" data-aos="fade-up" data-aos-delay="600">
+                            <a href="#sobre" class="btn btn-primary btn-lg me-3">
+                                <i class="fas fa-history"></i> Conheça nossos serviços</a>
+                            <a href="https://wa.me/5511999999999" class="btn btn-outline-light btn-lg">
+                                <i class="fas fa-calculator"></i> Solicite Orçamento
+                            </a>
+                        </div>
                 </div>
             </div>
         </div>
-        
+
         <!-- Scroll Indicator -->
         <div class="scroll-indicator">
             <a href="#sobre" class="scroll-down">
@@ -103,35 +114,9 @@
     <!-- About Section -->
     <section id="sobre" class="about-section py-5">
         <div class="container">
-            <!-- História da Família -->
-            <div class="row mb-5">
-                <div class="col-lg-12 text-center mb-5">
-                    <h2 class="section-title" data-aos="fade-up">A História da Família Barletta</h2>
-                    <p class="section-subtitle" data-aos="fade-up" data-aos-delay="200">
-                        Nossa história começou em 1957, quando Biagio Antonio Barletta deixou sua terra natal na 
-                        Itália em busca de novas oportunidades. Ele trouxe consigo algo muito mais valioso que 
-                        bagagens: o conhecimento ancestral da marcenaria italiana.
-                    </p>
-                </div>
-            </div>
-
+            <!-- About Section -->
             <div class="row align-items-center mb-5">
                 <div class="col-lg-6" data-aos="fade-right">
-                    <h3 class="mb-4">Uma Tradição que Atravessa Gerações</h3>
-                    <p class="mb-4">
-                        Dois anos após sua chegada ao Brasil, em 1959, Biagio uniu-se ao seu irmão para fundar a primeira empresa da família. O que começou como um pequeno negócio rapidamente ganhou reconhecimento pela qualidade excepcional do trabalho e pelo compromisso inabalável com a satisfação de cada cliente.
-                    </p>
-                    <p class="mb-4">
-                        Hoje, com mais de seis décadas de história, a Biagio Interiores mantém vivo o legado da tradição italiana sob a liderança do Arqº Biagio Antonio Barletta Junior. Com a mesma dedicação e paixão que caracterizaram nossos primeiros anos, continuamos oferecendo móveis e projetos de interiores sofisticados, sempre sob medida para cada cliente.
-                    </p>
-                    <p>
-                        Na Biagio Interiores, sua realização começa com a certeza de um trabalho feito com paixão e competência há gerações.
-                    </p>
-                    <a href="#valores" class="btn btn-primary mt-3">
-                        <i class="fas fa-heart"></i> Conheça Nossos Valores
-                    </a>
-                </div>
-                <div class="col-lg-6" data-aos="fade-left">
                     <div class="family-photo">
                         <div class="photo-placeholder">
                             <i class="fas fa-users fa-5x"></i>
@@ -139,10 +124,20 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <h3 class="mb-4">Uma Tradição que Atravessa Gerações</h3>
+                    <p class="mb-4">
+                        Na Biagio Interiores, sua realização começa com a certeza de um trabalho feito com paixão e
+                        competência há gerações.
+                    </p>
+                    <a href="quem-somos.html" class="btn btn-primary mt-3">
+                        <i class="fas fa-info-circle"></i> Saiba Mais
+                    </a>
+                </div>
             </div>
 
             <!-- Estatísticas -->
-            <div class="row text-center mb-5">
+            <!-- <div class="row text-center mb-5">
                 <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
                     <div class="stat-item">
                         <div class="stat-icon">
@@ -179,10 +174,10 @@
                         <p class="stat-label">Gerações de Excelência</p>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <!-- Timeline -->
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-lg-12">
                     <h3 class="text-center mb-5" data-aos="fade-up">Nossa Jornada Através dos Anos</h3>
                     <div class="timeline">
@@ -227,7 +222,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
 
@@ -242,7 +237,7 @@
                     </p>
                 </div>
             </div>
-            
+
             <div class="row">
                 <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
                     <div class="value-card">
@@ -253,34 +248,37 @@
                         <p>Preservamos e honramos as técnicas artesanais passadas de geração em geração</p>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
                     <div class="value-card">
                         <div class="value-icon">
                             <i class="fas fa-gem"></i>
                         </div>
                         <h4>Qualidade</h4>
-                        <p>Comprometemo-nos com a excelência em cada detalhe, desde a seleção de materiais até o acabamento final</p>
+                        <p>Comprometemo-nos com a excelência em cada detalhe, desde a seleção de materiais até o
+                            acabamento final</p>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
                     <div class="value-card">
                         <div class="value-icon">
                             <i class="fas fa-user-cog"></i>
                         </div>
                         <h4>Personalização</h4>
-                        <p>Cada projeto é único, desenvolvido especificamente para atender às necessidades de cada cliente</p>
+                        <p>Cada projeto é único, desenvolvido especificamente para atender às necessidades de cada
+                            cliente</p>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
                     <div class="value-card">
                         <div class="value-icon">
                             <i class="fas fa-handshake"></i>
                         </div>
                         <h4>Confiabilidade</h4>
-                        <p>Construímos relacionamentos duradouros baseados na transparência e cumprimento de compromissos</p>
+                        <p>Construímos relacionamentos duradouros baseados na transparência e cumprimento de
+                            compromissos</p>
                     </div>
                 </div>
             </div>
@@ -294,7 +292,7 @@
                 <div class="col-lg-12 text-center mb-5">
                     <h2 class="section-title" data-aos="fade-up">Nossos Serviços</h2>
                     <p class="section-subtitle" data-aos="fade-up" data-aos-delay="200">
-                        Oferecemos soluções completas em design de interiores e marcenaria personalizada, 
+                        Oferecemos soluções completas em design de interiores e marcenaria personalizada,
                         sempre com a qualidade e tradição italiana que nos caracteriza há mais de 60 anos.
                     </p>
                 </div>
@@ -302,93 +300,128 @@
 
             <!-- Main Services -->
             <div class="row mb-5">
-                <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
                     <div class="service-card">
                         <div class="service-icon">
                             <i class="fas fa-home"></i>
                         </div>
                         <div class="service-content">
-                            <h3>Projetos de Interiores</h3>
-                            <h5>Residencial, Comercial e Corporativo</h5>
-                            <p>Transformamos ambientes com projetos personalizados que refletem sua personalidade e necessidades. Cada projeto é único, desenvolvido com atenção aos mínimos detalhes.</p>
+                            <h3>Residencial</h3>
+                            <!-- <h5>Soluções Completas para Seu Lar</h5> -->
+                            <p>Na Biagio Interiores, transformamos sua casa com soluções completas: do projeto à
+                                instalação final.
+                            </p>
+                            <p>
+                                Combinamos herança artesanal italiana e precisão técnica para criar
+                                móveis que elevam seu espaço:
+                            </p>
                             <ul class="service-features">
-                                <li><i class="fas fa-check"></i> Análise detalhada do espaço</li>
-                                <li><i class="fas fa-check"></i> Conceito personalizado</li>
-                                <li><i class="fas fa-check"></i> Projeto técnico completo</li>
-                                <li><i class="fas fa-check"></i> Acompanhamento de execução</li>
+                                <li><i class="fas fa-check"></i> Projetos exclusivos com design funcional e estético
+                                </li>
+                                <li><i class="fas fa-check"></i> Instalação especializada por equipe própria</li>
+                                <li><i class="fas fa-check"></i> Soluções integradas para cozinhas, closets, home
+                                    offices e áreas sociais</li>
+                                <li><i class="fas fa-check"></i> Revestimentos e forros em madeiras nobres</li>
                             </ul>
-                            <a href="#contato" class="btn btn-primary">Saiba Mais</a>
+                            <a href="residencial.html" class="btn btn-primary">Saiba Mais</a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
                     <div class="service-card">
                         <div class="service-icon">
                             <i class="fas fa-hammer"></i>
                         </div>
                         <div class="service-content">
-                            <h3>Marcenaria Personalizada</h3>
-                            <h5>MDF Premium e Ferragens de Qualidade</h5>
-                            <p>Móveis sob medida criados com MDF premium e ferragens das melhores marcas. Nosso processo construtivo garante peças pré-montadas e testadas.</p>
+                            <h3>Comercial</h3>
+                            <!-- <h5>Projetos que Potencializam Seu Negócio</h5> -->
+                            <p>Na Biagio Interiores, criamos ambientes comerciais que unem funcionalidade e impacto
+                                visual. Do projeto à instalação, entregamos soluções sob medida para lojas, boutiques e
+                                espaços de varejo com a excelência artesanal italiana.
+                            </p>
+                            <p>
+                                Soluções completas para seu negócio:
+                            </p>
                             <ul class="service-features">
-                                <li><i class="fas fa-check"></i> MDF 18mm para portas e montantes</li>
-                                <li><i class="fas fa-check"></i> Ferragens de primeira qualidade</li>
-                                <li><i class="fas fa-check"></i> Móveis pré-montados</li>
-                                <li><i class="fas fa-check"></i> Sistema de encaixe e parafusos</li>
+                                <li><i class="fas fa-check"></i> Projetos estratégicos que otimizam fluxo de clientes e
+                                    exposição de produtos</li>
+                                <li><i class="fas fa-check"></i> Instalação ágil por equipe especializada (minimizando
+                                    tempo de paralisação)</li>
+                                <li><i class="fas fa-check"></i> Vitrines, balcões, displays e mobiliário corporativo de
+                                    alto impacto</li>
+                                <li><i class="fas fa-check"></i> Revestimentos em madeira para identidade visual premium
+                                </li>
                             </ul>
-                            <a href="#contato" class="btn btn-primary">Saiba Mais</a>
+                            <a href="comercial.html" class="btn btn-primary">Saiba Mais</a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="300">
                     <div class="service-card">
                         <div class="service-icon">
-                            <i class="fas fa-layer-group"></i>
+                            <i class="fas fa-building"></i>
                         </div>
                         <div class="service-content">
-                            <h3>Revestimentos em Madeira</h3>
-                            <h5>Forros e Painéis Decorativos</h5>
-                            <p>Forros e painéis decorativos que agregam sofisticação e aconchego aos ambientes. Trabalhamos com espessuras adequadas para máxima resistência.</p>
+                            <h3>Corporativo</h3>
+                            <!-- <h5>Produtividade e Sofisticação Sob Medida</h5> -->
+                            <p>
+                                Na Biagio Interiores, criamos ambientes corporativos que equilibram funcionalidade e
+                                prestígio. Do projeto à instalação, entregamos soluções integradas para escritórios,
+                                salas de diretoria e espaços coletivos com a excelência artesanal italiana.
+                            </p>
+                            <p>
+                                Soluções estratégicas para sua empresa:
+                            </p>
                             <ul class="service-features">
-                                <li><i class="fas fa-check"></i> Painéis decorativos para paredes</li>
-                                <li><i class="fas fa-check"></i> Forros em madeira para tetos</li>
-                                <li><i class="fas fa-check"></i> Divisórias e biombos</li>
-                                <li><i class="fas fa-check"></i> Isolamento térmico e acústico</li>
+                                <li><i class="fas fa-check"></i> Projetos inteligentes que otimizam fluxos de trabalho e
+                                    bem-estar</li>
+                                <li><i class="fas fa-check"></i> Instalação profissional com mínimo downtime operacional
+                                </li>
+                                <li><i class="fas fa-check"></i> Mobiliário executivo, recepções de impacto, salas de
+                                    reunião e painéis acústicos</li>
+                                <li><i class="fas fa-check"></i> Revestimentos em madeira nobre para imagem corporativa
+                                    premium</li>
                             </ul>
-                            <a href="#contato" class="btn btn-primary">Saiba Mais</a>
+                            <a href="corporativo.html" class="btn btn-primary">Saiba Mais</a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+                <!-- <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="400">
                     <div class="service-card">
                         <div class="service-icon">
                             <i class="fas fa-couch"></i>
                         </div>
                         <div class="service-content">
-                            <h3>Móveis Sob Medida</h3>
-                            <h5>Cada Peça Única para Seu Espaço</h5>
-                            <p>Cada peça é única, projetada especificamente para seu espaço e estilo de vida. Utilizamos apenas materiais de primeira qualidade.</p>
+                            <h3>Móveis Planejados</h3>
+                            <h5>Cozinhas, Closets, Home Offices e Mais</h5>
+                            <p>Na Biagio Interiores, cada móvel planejado é uma obra de arte. Utilizamos MDF 18mm de
+                                alta qualidade e ferragens de primeira linha, garantindo durabilidade e beleza. Nosso
+                                processo construtivo é diferenciado:</p>
                             <ul class="service-features">
-                                <li><i class="fas fa-check"></i> Design exclusivo</li>
-                                <li><i class="fas fa-check"></i> Materiais premium</li>
-                                <li><i class="fas fa-check"></i> Técnicas artesanais</li>
-                                <li><i class="fas fa-check"></i> Garantia de qualidade</li>
+                                <li><i class="fas fa-check"></i> Produção própria com tecnologia de ponta e acabamento
+                                    artesanal</li>
+                                <li><i class="fas fa-check"></i> Peças pré-montadas e testadas em fábrica para
+                                    instalação rápida e limpa</li>
+                                <li><i class="fas fa-check"></i> Sistema de encaixe e parafusos para maior resistência e
+                                    durabilidade</li>
+                                <li><i class="fas fa-check"></i> Ampla variedade de acabamentos e cores para
+                                    personalização total</li>
                             </ul>
-                            <a href="#contato" class="btn btn-primary">Saiba Mais</a>
+                            <a href="moveis-planejados.html" class="btn btn-primary">Saiba Mais</a>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
 
             <!-- Service Types -->
-            <div class="row mb-5">
+            <!-- <div class="row mb-5">
                 <div class="col-lg-12 text-center mb-4">
                     <h3 data-aos="fade-up">Áreas de Atuação</h3>
                 </div>
-                
+
                 <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
                     <div class="service-type-card">
                         <div class="service-type-icon">
@@ -405,7 +438,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
                     <div class="service-type-card">
                         <div class="service-type-icon">
@@ -422,7 +455,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="300">
                     <div class="service-type-card">
                         <div class="service-type-icon">
@@ -439,43 +472,51 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <!-- Process -->
             <div class="row">
                 <div class="col-lg-12 text-center mb-4">
                     <h3 data-aos="fade-up">Nosso Processo de Trabalho</h3>
                 </div>
-                
+
                 <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
                     <div class="process-step">
                         <div class="process-number">01</div>
-                        <h4>Consulta Inicial</h4>
-                        <p>Visita técnica gratuita para conhecer suas necessidades</p>
+                        <h4>DIAGNÓSTICO</h4>
+                        <p>Compreendemos suas necessidades e sonhos em uma consulta detalhada</p>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
                     <div class="process-step">
                         <div class="process-number">02</div>
-                        <h4>Projeto</h4>
-                        <p>Desenvolvimento do projeto personalizado com plantas e especificações</p>
+                        <h4>PROJETO PERSONALIZADO</h4>
+                        <p>Criamos soluções 3D exclusivas alinhadas à sua identidade</p>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
                     <div class="process-step">
                         <div class="process-number">03</div>
-                        <h4>Produção</h4>
-                        <p>Fabricação dos móveis em nosso atelier com controle de qualidade</p>
+                        <h4>FABRICAÇÃO ARTESANAL</h4>
+                        <p>Precisão italiana: peças pré-montadas e testadas em oficina</p>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
                     <div class="process-step">
                         <div class="process-number">04</div>
-                        <h4>Instalação</h4>
-                        <p>Montagem profissional e acabamento final em sua obra</p>
+                        <h4>INSTALAÇÃO IMACULADA</h4>
+                        <p>Montagem ágil por especialistas, sem perturbar seu espaço</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="500">
+                    <div class="process-step">
+                        <div class="process-number">05</div>
+                        <h4>GARANTIA BIAGIO</h4>
+                        <p>Acompanhamento pós-entrega para tranquilidade perpétua</p>
                     </div>
                 </div>
             </div>
@@ -489,62 +530,64 @@
                 <div class="col-lg-12 text-center mb-5">
                     <h2 class="section-title" data-aos="fade-up">Nossos Projetos</h2>
                     <p class="section-subtitle" data-aos="fade-up" data-aos-delay="200">
-                        Cada projeto da Biagio Interiores conta uma história única. Aqui você encontra uma seleção 
-                        dos nossos trabalhos mais representativos, que demonstram nossa capacidade de transformar 
+                        Cada projeto da Biagio Interiores conta uma história única. Aqui você encontra uma seleção
+                        dos nossos trabalhos mais representativos, que demonstram nossa capacidade de transformar
                         ambientes e superar expectativas.
                     </p>
                 </div>
             </div>
 
             <!-- Filter Buttons -->
+
+
+            <!-- Portfolio Filters -->
             <div class="row mb-4">
                 <div class="col-lg-12 text-center">
                     <div class="portfolio-filters" data-aos="fade-up">
-                        <button class="filter-btn active" data-filter="all">Todos</button>
-                        <button class="filter-btn" data-filter="residencial">Residencial</button>
-                        <button class="filter-btn" data-filter="comercial">Comercial</button>
-                        <button class="filter-btn" data-filter="corporativo">Corporativo</button>
+                        <button class="btn btn-outline-primary active" data-filter="*">Todos</button>
+                        <button class="btn btn-outline-primary" data-filter=".residencial">Residencial</button>
+                        <button class="btn btn-outline-primary" data-filter=".comercial">Comercial</button>
+                        <button class="btn btn-outline-primary" data-filter=".corporativo">Corporativo</button>
                     </div>
                 </div>
             </div>
 
             <!-- Portfolio Grid -->
             <div class="row portfolio-grid">
+                <!-- Projeto 1: Casa Moderna Alphaville -->
                 <div class="col-lg-4 col-md-6 mb-4 portfolio-item residencial" data-aos="fade-up" data-aos-delay="100">
                     <div class="portfolio-card">
                         <div class="portfolio-image">
-                            <div class="image-placeholder">
-                                <i class="fas fa-home fa-3x"></i>
-                                <p>Casa Moderna Alphaville</p>
-                            </div>
+                            <img src="img/portfolio/res_alphaville.jpg" alt="Casa Moderna Alphaville" class="img-fluid">
                             <div class="portfolio-overlay">
                                 <div class="portfolio-info">
                                     <h4>Casa Moderna Alphaville</h4>
                                     <p>Residencial • 2024</p>
-                                    <a href="#" class="btn btn-light btn-sm">Ver Detalhes</a>
+                                    <a href="#" class="btn btn-light btn-sm" data-bs-toggle="modal"
+                                        data-bs-target="#portfolioModal1">Ver Detalhes</a>
                                 </div>
                             </div>
                         </div>
                         <div class="portfolio-content">
                             <span class="portfolio-category">Residencial</span>
                             <h4>Casa Moderna Alphaville</h4>
-                            <p>Transformação completa de uma residência de 300m², onde tradição e modernidade se encontram harmoniosamente.</p>
+                            <p>Transformação completa de uma residência de 300m², onde tradição e modernidade se
+                                encontram harmoniosamente.</p>
                         </div>
                     </div>
                 </div>
 
+                <!-- Projeto 2: Boutique de Luxo -->
                 <div class="col-lg-4 col-md-6 mb-4 portfolio-item comercial" data-aos="fade-up" data-aos-delay="200">
                     <div class="portfolio-card">
                         <div class="portfolio-image">
-                            <div class="image-placeholder">
-                                <i class="fas fa-store fa-3x"></i>
-                                <p>Boutique de Luxo</p>
-                            </div>
+                            <img src="img/portfolio/com_boutique.jpg" alt="Boutique de Luxo" class="img-fluid">
                             <div class="portfolio-overlay">
                                 <div class="portfolio-info">
                                     <h4>Boutique de Luxo Shopping</h4>
                                     <p>Comercial • 2024</p>
-                                    <a href="#" class="btn btn-light btn-sm">Ver Detalhes</a>
+                                    <a href="#" class="btn btn-light btn-sm" data-bs-toggle="modal"
+                                        data-bs-target="#portfolioModal2">Ver Detalhes</a>
                                 </div>
                             </div>
                         </div>
@@ -556,109 +599,272 @@
                     </div>
                 </div>
 
+                <!-- Projeto 3: Escritório de Advocacia -->
                 <div class="col-lg-4 col-md-6 mb-4 portfolio-item corporativo" data-aos="fade-up" data-aos-delay="300">
                     <div class="portfolio-card">
                         <div class="portfolio-image">
-                            <div class="image-placeholder">
-                                <i class="fas fa-briefcase fa-3x"></i>
-                                <p>Escritório de Advocacia</p>
-                            </div>
+                            <img src="img/portfolio/corp_advocacia.jpg" alt="Escritório de Advocacia" class="img-fluid">
                             <div class="portfolio-overlay">
                                 <div class="portfolio-info">
                                     <h4>Escritório de Advocacia</h4>
                                     <p>Corporativo • 2023</p>
-                                    <a href="#" class="btn btn-light btn-sm">Ver Detalhes</a>
+                                    <a href="#" class="btn btn-light btn-sm" data-bs-toggle="modal"
+                                        data-bs-target="#portfolioModal3">Ver Detalhes</a>
                                 </div>
                             </div>
                         </div>
                         <div class="portfolio-content">
                             <span class="portfolio-category">Corporativo</span>
                             <h4>Escritório de Advocacia</h4>
-                            <p>Projeto executivo para escritório de advocacia de 200m², criando um ambiente que transmite seriedade e confiança.</p>
+                            <p>Projeto executivo para escritório de advocacia de 200m², criando um ambiente que
+                                transmite seriedade e confiança.</p>
                         </div>
                     </div>
                 </div>
 
+                <!-- Projeto 4: Apartamento Jardins -->
                 <div class="col-lg-4 col-md-6 mb-4 portfolio-item residencial" data-aos="fade-up" data-aos-delay="400">
                     <div class="portfolio-card">
                         <div class="portfolio-image">
-                            <div class="image-placeholder">
-                                <i class="fas fa-building fa-3x"></i>
-                                <p>Apartamento Jardins</p>
-                            </div>
+                            <img src="img/portfolio/res_jardins.jpg" alt="Apartamento Jardins" class="img-fluid">
                             <div class="portfolio-overlay">
                                 <div class="portfolio-info">
                                     <h4>Apartamento Jardins</h4>
                                     <p>Residencial • 2023</p>
-                                    <a href="#" class="btn btn-light btn-sm">Ver Detalhes</a>
+                                    <a href="#" class="btn btn-light btn-sm" data-bs-toggle="modal"
+                                        data-bs-target="#portfolioModal4">Ver Detalhes</a>
                                 </div>
                             </div>
                         </div>
                         <div class="portfolio-content">
                             <span class="portfolio-category">Residencial</span>
                             <h4>Apartamento Jardins</h4>
-                            <p>Reforma completa de apartamento de 120m² com foco em integração de ambientes e aproveitamento de espaços.</p>
+                            <p>Reforma completa de apartamento de 120m² com foco em integração de ambientes e
+                                aproveitamento de espaços.</p>
                         </div>
                     </div>
                 </div>
 
+                <!-- Projeto 5: Restaurante Italiano -->
                 <div class="col-lg-4 col-md-6 mb-4 portfolio-item comercial" data-aos="fade-up" data-aos-delay="500">
                     <div class="portfolio-card">
                         <div class="portfolio-image">
-                            <div class="image-placeholder">
-                                <i class="fas fa-utensils fa-3x"></i>
-                                <p>Restaurante Italiano</p>
-                            </div>
+                            <img src="img/portfolio/com_restaurante.jpg" alt="Restaurante Italiano" class="img-fluid">
                             <div class="portfolio-overlay">
                                 <div class="portfolio-info">
                                     <h4>Restaurante Italiano</h4>
                                     <p>Comercial • 2023</p>
-                                    <a href="#" class="btn btn-light btn-sm">Ver Detalhes</a>
+                                    <a href="#" class="btn btn-light btn-sm" data-bs-toggle="modal"
+                                        data-bs-target="#portfolioModal5">Ver Detalhes</a>
                                 </div>
                             </div>
                         </div>
                         <div class="portfolio-content">
                             <span class="portfolio-category">Comercial</span>
                             <h4>Restaurante Italiano</h4>
-                            <p>Projeto temático para restaurante italiano de 150m² que remete à tradição e aconchego da Itália.</p>
+                            <p>Projeto temático para restaurante italiano de 150m² que remete à tradição e aconchego da
+                                Itália.</p>
                         </div>
                     </div>
                 </div>
 
+                <!-- Projeto 6: Sede Corporativa Tech -->
                 <div class="col-lg-4 col-md-6 mb-4 portfolio-item corporativo" data-aos="fade-up" data-aos-delay="600">
                     <div class="portfolio-card">
                         <div class="portfolio-image">
-                            <div class="image-placeholder">
-                                <i class="fas fa-laptop fa-3x"></i>
-                                <p>Sede Corporativa Tech</p>
-                            </div>
+                            <img src="img/portfolio/corp_tech.jpg" alt="Sede Corporativa Tech" class="img-fluid">
                             <div class="portfolio-overlay">
                                 <div class="portfolio-info">
                                     <h4>Sede Corporativa Tech</h4>
                                     <p>Corporativo • 2024</p>
-                                    <a href="#" class="btn btn-light btn-sm">Ver Detalhes</a>
+                                    <a href="#" class="btn btn-light btn-sm" data-bs-toggle="modal"
+                                        data-bs-target="#portfolioModal6">Ver Detalhes</a>
                                 </div>
                             </div>
                         </div>
                         <div class="portfolio-content">
                             <span class="portfolio-category">Corporativo</span>
                             <h4>Sede Corporativa Tech</h4>
-                            <p>Ambiente corporativo moderno para empresa de tecnologia com 400m² focado em colaboração e inovação.</p>
+                            <p>Ambiente corporativo moderno para empresa de tecnologia com 400m² focado em colaboração e
+                                inovação.</p>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <!-- Modals para Detalhes do Portfólio -->
+            <!-- Modal 1 -->
+            <div class="modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1Label"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="portfolioModal1Label">Casa Moderna Alphaville</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/portfolio/res_alphaville.jpg" alt="Casa Moderna Alphaville"
+                                class="img-fluid mb-3">
+                            <h6>Cliente: Família Silva</h6>
+                            <p><strong>Localização:</strong> Alphaville, São Paulo</p>
+                            <p><strong>Ano:</strong> 2024</p>
+                            <p><strong>Descrição:</strong> Projeto de interiores completo para uma residência de alto
+                                padrão em Alphaville. O desafio foi criar um ambiente que unisse a funcionalidade da
+                                vida moderna com a elegância e o aconchego da tradição italiana. Utilizamos madeiras
+                                nobres, mármores e tecidos sofisticados, resultando em espaços amplos e iluminados,
+                                perfeitos para o convívio familiar e social.</p>
+                            <p><strong>Destaques:</strong> Cozinha gourmet integrada, sala de estar com lareira, suíte
+                                master com closet e banheiro estilo spa, área externa com piscina e espaço gourmet.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal 2 -->
+            <div class="modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2Label"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="portfolioModal2Label">Boutique de Luxo Shopping</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/portfolio/com_boutique.jpg" alt="Boutique de Luxo Shopping"
+                                class="img-fluid mb-3">
+                            <h6>Cliente: Grife Elegance</h6>
+                            <p><strong>Localização:</strong> Shopping Cidade Jardim, São Paulo</p>
+                            <p><strong>Ano:</strong> 2024</p>
+                            <p><strong>Descrição:</strong> Desenvolvimento do projeto de interiores para uma boutique de
+                                luxo, com foco na criação de um ambiente que realçasse a exclusividade dos produtos. A
+                                iluminação estratégica, os espelhos e os expositores personalizados foram pensados para
+                                proporcionar uma experiência de compra única e sofisticada.</p>
+                            <p><strong>Destaques:</strong> Vitrines interativas, provadores amplos com iluminação
+                                ajustável, área de lounge para clientes VIP, balcão de atendimento em mármore italiano.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal 3 -->
+            <div class="modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3Label"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="portfolioModal3Label">Escritório de Advocacia</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/portfolio/corp_advocacia.jpg" alt="Escritório de Advocacia"
+                                class="img-fluid mb-3">
+                            <h6>Cliente: Escritório Jurídico Associados</h6>
+                            <p><strong>Localização:</strong> Centro Empresarial, São Paulo</p>
+                            <p><strong>Ano:</strong> 2023</p>
+                            <p><strong>Descrição:</strong> Projeto executivo para um escritório de advocacia, visando
+                                criar um ambiente que transmita seriedade, confiança e profissionalismo. A escolha de
+                                mobiliário ergonômico e a otimização dos espaços de trabalho foram prioridades,
+                                garantindo conforto e produtividade para a equipe.</p>
+                            <p><strong>Destaques:</strong> Sala de reuniões com sistema de videoconferência integrado,
+                                biblioteca com acervo jurídico, recepção elegante com painéis de madeira, salas
+                                privativas para atendimento a clientes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal 4 -->
+            <div class="modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4Label"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="portfolioModal4Label">Apartamento Jardins</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/portfolio/res_jardins.jpg" alt="Apartamento Jardins" class="img-fluid mb-3">
+                            <h6>Cliente: Casal Rodrigues</h6>
+                            <p><strong>Localização:</strong> Jardins, São Paulo</p>
+                            <p><strong>Ano:</strong> 2023</p>
+                            <p><strong>Descrição:</strong> Reforma completa de um apartamento de 120m² nos Jardins, com
+                                foco na integração de ambientes e no aproveitamento inteligente dos espaços. O projeto
+                                buscou criar um lar acolhedor e funcional, com soluções personalizadas de marcenaria e
+                                um design contemporâneo que reflete a personalidade dos moradores.</p>
+                            <p><strong>Destaques:</strong> Cozinha americana integrada à sala de jantar, painéis ripados
+                                em madeira, iluminação cênica, móveis planejados para otimização de espaço, varanda
+                                gourmet.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal 5 -->
+            <div class="modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5Label"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="portfolioModal5Label">Restaurante Italiano</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/portfolio/com_restaurante.jpg" alt="Restaurante Italiano"
+                                class="img-fluid mb-3">
+                            <h6>Cliente: Grupo Gastronômico Sapore</h6>
+                            <p><strong>Localização:</strong> Bairro da Liberdade, São Paulo</p>
+                            <p><strong>Ano:</strong> 2023</p>
+                            <p><strong>Descrição:</strong> Projeto temático para um restaurante italiano, com o objetivo
+                                de transportar os clientes para uma autêntica trattoria na Itália. A decoração rústica e
+                                elegante, com elementos como tijolinhos aparentes, madeira de demolição e iluminação
+                                quente, cria um ambiente acolhedor e convidativo.</p>
+                            <p><strong>Destaques:</strong> Forno a lenha aparente, adega climatizada, área de bar com
+                                balcão em pedra natural, mesas e cadeiras de madeira maciça, detalhes decorativos com
+                                referências italianas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal 6 -->
+            <div class="modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6Label"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="portfolioModal6Label">Sede Corporativa Tech</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/portfolio/corp_tech.jpg" alt="Sede Corporativa Tech" class="img-fluid mb-3">
+                            <h6>Cliente: Tech Solutions S.A.</h6>
+                            <p><strong>Localização:</strong> Faria Lima, São Paulo</p>
+                            <p><strong>Ano:</strong> 2024</p>
+                            <p><strong>Descrição:</strong> Desenvolvimento de um ambiente corporativo moderno e
+                                funcional para uma empresa de tecnologia. O projeto priorizou espaços colaborativos,
+                                áreas de descompressão e a integração de tecnologia, criando um local de trabalho
+                                dinâmico e inspirador para a equipe.</p>
+                            <p><strong>Destaques:</strong> Open space com estações de trabalho ergonômicas, salas de
+                                reunião com isolamento acústico, copa equipada, área de jogos e descanso, cabines
+                                telefônicas individuais, painéis acústicos decorativos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 
             <!-- Testimonials -->
             <div class="row mt-5">
                 <div class="col-lg-12 text-center mb-4">
                     <h3 data-aos="fade-up">O Que Nossos Clientes Dizem</h3>
                 </div>
-                
+
                 <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
                     <div class="testimonial-card">
                         <div class="testimonial-content">
-                            <p>"A Biagio transformou nossa casa em um lar verdadeiramente especial. A atenção aos detalhes e a qualidade dos móveis superaram nossas expectativas."</p>
+                            <p>"A Biagio transformou nossa casa em um lar verdadeiramente especial. A atenção aos
+                                detalhes e a qualidade dos móveis superaram nossas expectativas."</p>
                         </div>
                         <div class="testimonial-author">
                             <h5>Maria Silva</h5>
@@ -666,11 +872,12 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
                     <div class="testimonial-card">
                         <div class="testimonial-content">
-                            <p>"Profissionalismo exemplar desde o primeiro contato. O projeto foi entregue no prazo e com qualidade impecável. Recomendo sem hesitar."</p>
+                            <p>"Profissionalismo exemplar desde o primeiro contato. O projeto foi entregue no prazo e
+                                com qualidade impecável. Recomendo sem hesitar."</p>
                         </div>
                         <div class="testimonial-author">
                             <h5>João Santos</h5>
@@ -678,11 +885,12 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="300">
                     <div class="testimonial-card">
                         <div class="testimonial-content">
-                            <p>"A tradição italiana realmente faz a diferença. Nossos clientes sempre elogiam o ambiente e isso reflete diretamente nas vendas."</p>
+                            <p>"A tradição italiana realmente faz a diferença. Nossos clientes sempre elogiam o ambiente
+                                e isso reflete diretamente nas vendas."</p>
                         </div>
                         <div class="testimonial-author">
                             <h5>Ana Costa</h5>
@@ -694,97 +902,32 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contato" class="contact-section py-5">
-        <div class="container">
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up">
+
             <div class="row">
                 <div class="col-lg-12 text-center mb-5">
                     <h2 class="section-title" data-aos="fade-up">Vamos Transformar Seu Projeto em Realidade</h2>
                     <p class="section-subtitle" data-aos="fade-up" data-aos-delay="200">
-                        Estamos prontos para ouvir suas ideias e transformá-las em ambientes únicos e especiais. 
-                        Nossa equipe de especialistas está à disposição para esclarecer dúvidas, apresentar soluções 
+                        Estamos prontos para ouvir suas ideias e transformá-las em ambientes únicos e especiais.
+                        Nossa equipe de especialistas está à disposição para esclarecer dúvidas, apresentar soluções
                         e desenvolver o projeto dos seus sonhos.
                     </p>
                 </div>
             </div>
 
-            <div class="row">
-                <!-- Contact Form -->
-                <div class="col-lg-8 mb-5" data-aos="fade-right">
-                    <div class="contact-form-wrapper">
-                        <h3 class="mb-4">Solicite Seu Orçamento Personalizado</h3>
-                        <form id="contactForm" class="contact-form">
-                            <div class="row">
-                                <div class="col-md-6 mb-3">
-                                    <label for="nome" class="form-label">Nome Completo *</label>
-                                    <input type="text" class="form-control" id="nome" name="nome" required>
-                                </div>
-                                <div class="col-md-6 mb-3">
-                                    <label for="email" class="form-label">E-mail *</label>
-                                    <input type="email" class="form-control" id="email" name="email" required>
-                                </div>
-                            </div>
-                            
-                            <div class="row">
-                                <div class="col-md-6 mb-3">
-                                    <label for="telefone" class="form-label">Telefone/WhatsApp *</label>
-                                    <input type="tel" class="form-control" id="telefone" name="telefone" required>
-                                </div>
-                                <div class="col-md-6 mb-3">
-                                    <label for="tipoServico" class="form-label">Tipo de Projeto *</label>
-                                    <select class="form-select" id="tipoServico" name="tipoServico" required>
-                                        <option value="">Selecione...</option>
-                                        <option value="residencial">Residencial</option>
-                                        <option value="comercial">Comercial</option>
-                                        <option value="corporativo">Corporativo</option>
-                                    </select>
-                                </div>
-                            </div>
-                            
-                            <div class="mb-3">
-                                <label for="cidade" class="form-label">Cidade *</label>
-                                <input type="text" class="form-control" id="cidade" name="cidade" required>
-                            </div>
-                            
-                            <div class="mb-3">
-                                <label for="descricao" class="form-label">Descrição do Projeto *</label>
-                                <textarea class="form-control" id="descricao" name="descricao" rows="4" required placeholder="Descreva seu projeto, ambientes desejados, estilo preferido, etc."></textarea>
-                            </div>
-                            
-                            <div class="mb-4">
-                                <label for="comoConheceu" class="form-label">Como nos conheceu?</label>
-                                <select class="form-select" id="comoConheceu" name="comoConheceu">
-                                    <option value="">Selecione...</option>
-                                    <option value="google">Google</option>
-                                    <option value="indicacao">Indicação</option>
-                                    <option value="redes-sociais">Redes Sociais</option>
-                                    <option value="outros">Outros</option>
-                                </select>
-                            </div>
-                            
-                            <button type="submit" class="btn btn-primary btn-lg">
-                                <i class="fas fa-paper-plane"></i> Solicitar Orçamento Gratuito
-                            </button>
-                        </form>
-                    </div>
-                </div>
+            <div>
+                <iframe style="border:0; width: 100%; height: 270px; border-radius: 15px;"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.5025230754622!2d-46.569873199999996!3d-23.657980600000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xe7b0db849a8502d%3A0xc3ffb8a10a1f2743!2sMW%20Digital%20MKT!5e0!3m2!1spt-PT!2sbr!4v1742909468062!5m2!1spt-PT!2sbr"
+                    frameborder="0" allowfullscreen></iframe>
+            </div>
 
-                <!-- Contact Info -->
+            <div class="row mt-5">
+
                 <div class="col-lg-4 mb-5" data-aos="fade-left">
                     <div class="contact-info">
-                        <h3 class="mb-4">Fale Conosco</h3>
-                        
-                        <div class="contact-item">
-                            <div class="contact-icon">
-                                <i class="fas fa-phone"></i>
-                            </div>
-                            <div class="contact-details">
-                                <h5>Telefone</h5>
-                                <p>(11) 99999-9999</p>
-                                <small>Seg a Sex: 8h às 18h</small>
-                            </div>
-                        </div>
-                        
+
                         <div class="contact-item">
                             <div class="contact-icon">
                                 <i class="fab fa-whatsapp"></i>
@@ -795,7 +938,7 @@
                                 <small>Resposta em até 1 hora</small>
                             </div>
                         </div>
-                        
+
                         <div class="contact-item">
                             <div class="contact-icon">
                                 <i class="fas fa-envelope"></i>
@@ -806,7 +949,7 @@
                                 <small>Resposta em até 24h</small>
                             </div>
                         </div>
-                        
+
                         <div class="contact-item">
                             <div class="contact-icon">
                                 <i class="fas fa-map-marker-alt"></i>
@@ -816,52 +959,48 @@
                                 <p>Rua das Flores, 123<br>São Paulo - SP</p>
                             </div>
                         </div>
-                        
-                        <div class="social-links mt-4">
-                            <h5>Siga-nos</h5>
-                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
-                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
-                        </div>
+
                     </div>
                 </div>
+
+                <div class="col-lg-8 mt-5 mt-lg-0">
+                    <form action="./assets/forms/contact.php" method="post">
+                        <div class="row">
+                            <div class="col-md-6 form-group">
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Nome"
+                                    required>
+                            </div>
+                            <div class="col-md-6 form-group mt-3 mt-md-0">
+                                <input type="text" name="sobrenome" class="form-control" id="sobrenome"
+                                    placeholder="Sobrenome">
+                            </div>
+                        </div>
+                        <div class="form-group mt-3">
+                            <input type="number" class="form-control" name="telefone" id="telefone"
+                                placeholder="Telefone\Whatsapp" required>
+                        </div>
+                        <div class="form-group mt-3">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Email"
+                                required>
+                        </div>
+                        <div class="form-group mt-3">
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Titulo"
+                                required>
+                        </div>
+                        <div class="form-group mt-3">
+                            <textarea class="form-control" name="message" rows="5" placeholder="Mensagem"
+                                required></textarea>
+                        </div>
+                        <br>
+                        <div class="text-center"><button type="submit">Enviar Mensagem</button></div>
+                    </form>
+
+                </div>
+
             </div>
 
-            <!-- FAQ Section -->
-            <div class="row mt-5">
-                <div class="col-lg-12 text-center mb-4">
-                    <h3 data-aos="fade-up">Perguntas Frequentes</h3>
-                </div>
-                
-                <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="100">
-                    <div class="faq-item">
-                        <h5>Como funciona o processo de orçamento?</h5>
-                        <p>Após o primeiro contato, agendamos uma visita técnica gratuita para conhecer o espaço e suas necessidades. Em seguida, desenvolvemos uma proposta personalizada com projeto básico e orçamento detalhado.</p>
-                    </div>
-                </div>
-                
-                <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="200">
-                    <div class="faq-item">
-                        <h5>Qual o prazo médio de execução?</h5>
-                        <p>O prazo varia conforme a complexidade do projeto, mas geralmente fica entre 30 a 60 dias após aprovação do projeto e confirmação do pedido.</p>
-                    </div>
-                </div>
-                
-                <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="300">
-                    <div class="faq-item">
-                        <h5>Vocês atendem em outras cidades?</h5>
-                        <p>Sim, atendemos em toda a região metropolitana. Para cidades mais distantes, consulte-nos sobre condições especiais.</p>
-                    </div>
-                </div>
-                
-                <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="400">
-                    <div class="faq-item">
-                        <h5>Oferecem garantia nos móveis?</h5>
-                        <p>Todos os nossos móveis possuem garantia de 1 ano contra defeitos de fabricação, além de suporte técnico permanente.</p>
-                    </div>
-                </div>
-            </div>
         </div>
-    </section>
+    </section><!-- End Contact Section -->
 
     <!-- Footer -->
     <footer class="footer-section">
@@ -870,14 +1009,15 @@
                 <div class="col-lg-4 mb-4">
                     <div class="footer-brand">
                         <img src="img/logo-biagio.png" alt="Biagio Interiores" class="footer-logo">
-                        <p class="mt-3">Há mais de 60 anos criando móveis sob medida com a tradição e qualidade italiana. Transformamos ambientes em espaços únicos e exclusivos.</p>
+                        <p class="mt-3">Há mais de 60 anos criando móveis sob medida com a tradição e qualidade
+                            italiana. Transformamos ambientes em espaços únicos e exclusivos.</p>
                         <div class="social-links">
                             <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
                             <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-2 col-md-6 mb-4">
                     <h5>Serviços</h5>
                     <ul class="footer-links">
@@ -887,7 +1027,7 @@
                         <li><a href="#servicos">Móveis Sob Medida</a></li>
                     </ul>
                 </div>
-                
+
                 <div class="col-lg-2 col-md-6 mb-4">
                     <h5>Institucional</h5>
                     <ul class="footer-links">
@@ -897,7 +1037,7 @@
                         <li><a href="#contato">Contato</a></li>
                     </ul>
                 </div>
-                
+
                 <div class="col-lg-4 mb-4">
                     <h5>Contato</h5>
                     <div class="footer-contact">
@@ -905,11 +1045,23 @@
                         <p><i class="fas fa-envelope"></i> contato@biagioInteriores.com.br</p>
                         <p><i class="fas fa-map-marker-alt"></i> Rua das Flores, 123 - São Paulo - SP</p>
                     </div>
+
+                    <div class="newsletter mt-4">
+                        <h6>Newsletter</h6>
+                        <form class="newsletter-form">
+                            <div class="input-group">
+                                <input type="email" class="form-control" placeholder="Seu e-mail">
+                                <button class="btn btn-primary" type="submit">
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
-            
+
             <hr class="footer-divider">
-            
+
             <div class="row">
                 <div class="col-lg-6">
                     <p class="footer-copyright">© 2024 Biagio Interiores - Todos os direitos reservados</p>
@@ -946,7 +1098,8 @@
                 </div>
                 <div class="modal-body">
                     <div class="ratio ratio-16x9">
-                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Processo Artesanal Biagio" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Processo Artesanal Biagio"
+                            allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -960,5 +1113,5 @@
     <!-- Custom JS -->
     <script src="js/script.js"></script>
 </body>
-</html>
 
+</html>

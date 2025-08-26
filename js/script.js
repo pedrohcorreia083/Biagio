@@ -90,7 +90,7 @@ function initSmoothScrolling() {
 
 // ===== PORTFOLIO FILTER =====
 function initPortfolioFilter() {
-    const filterButtons = document.querySelectorAll('.filter-btn');
+    const filterButtons = document.querySelectorAll('.portfolio-filters button');
     const portfolioItems = document.querySelectorAll('.portfolio-item');
     
     filterButtons.forEach(button => {
@@ -103,7 +103,7 @@ function initPortfolioFilter() {
             
             // Filter portfolio items
             portfolioItems.forEach(item => {
-                if (filter === 'all' || item.classList.contains(filter)) {
+                if (filter === '*' || item.classList.contains(filter.substring(1))) {
                     item.style.display = 'block';
                     item.style.animation = 'fadeInUp 0.6s ease-out';
                 } else {
