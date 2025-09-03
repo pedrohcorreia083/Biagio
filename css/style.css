@@ -1,12 +1,12 @@
 /* ===== VARIABLES ===== */
 :root {
-    --biagio-red: #C41E3A;
-    --biagio-brown: #8B4513;
-    --biagio-green: #228B22;
-    --biagio-beige: #F5F5DC;
-    --biagio-gray: #666666;
-    --biagio-dark: #2C2C2C;
-    --biagio-light: #F8F9FA;
+  --biagio-red: #7B1E24;   /* vinho mais escuro */
+  --biagio-brown: #7B1E24; /* força para vinho */
+  --biagio-green: #666666; /* cinza */
+  --biagio-beige: #FFFFFF; /* branco */
+  --biagio-gray: #666666;  /* cinza */
+  --biagio-dark: #666666;  /* cinza */
+  --biagio-light: #FFFFFF; /* branco */
 
     --font-primary: 'Playfair ', serif;
     --font-secondary: 'Open Sans', sans-serif;
